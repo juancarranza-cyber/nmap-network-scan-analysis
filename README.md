@@ -60,7 +60,7 @@ This step is important in cybersecurity labs because it validates network reacha
 
 # 4. ICMP Traffic Capture Using Wireshark
 
-![Wireshark ICMP]( )
+![Wireshark ICMP](Screenshots/Capture4.PNG)
 
 Wireshark was used to capture and analyze ICMP traffic generated during the connectivity verification process.
 
