@@ -23,7 +23,7 @@ Kali Linux → Windows Target
 
 # 1. Windows Network Configuration
 
-![Windows IP](Captura1.PNG)
+![Windows IP](screenshots/Capture1.PNG)
 
 The Windows virtual machine was configured inside a Host-Only virtual network using VirtualBox.
 
