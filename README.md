@@ -45,6 +45,17 @@ Using the `ip a` command, the assigned IP address `192.168.56.101` was identifie
 Having both systems inside the same isolated virtual network allowed direct communication between the attacker and target machines, enabling traffic analysis, reconnaissance activities, and packet capture in a controlled cybersecurity lab environment.
 
 
+# 3. Connectivity Verification Using ICMP
+
+![Ping Test]( )
+
+Connectivity between Kali Linux and the Windows target machine was verified using the `ping` command.
+
+The ICMP protocol allowed successful communication testing between both virtual machines inside the Host-Only virtual network configured in VirtualBox.
+
+Successful Echo Reply responses confirmed that the lab environment was correctly configured and ready for traffic analysis and reconnaissance testing.
+
+This step is important in cybersecurity labs because it validates network reachability before performing scanning, monitoring, or offensive security activities.
 
 
 
