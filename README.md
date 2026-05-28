@@ -88,7 +88,7 @@ From a defensive cybersecurity perspective, network scans are considered reconna
 
 # 6. TCP Traffic Analysis During Nmap Scan
 
-![Wireshark TCP Scan]( )
+![Wireshark TCP Scan](Screenshots/Capture6.PNG)
 
 During the Nmap scan, Wireshark was used to capture and analyze the TCP traffic generated between Kali Linux and the Windows target machine.
 
