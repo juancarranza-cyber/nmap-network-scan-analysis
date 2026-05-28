@@ -101,6 +101,21 @@ From a defensive cybersecurity perspective, this type of activity can be monitor
 Packet-level visibility is essential for incident detection, traffic analysis, and network monitoring operations.
 
 
+# 7. TCP Flag Analysis in Wireshark
+
+![TCP Flags]( )
+
+A detailed packet inspection was performed within Wireshark focusing on TCP flags generated during the Nmap scan.
+
+During the analysis, packets containing the `RST` (Reset) and `ACK` (Acknowledgment) flags were identified.
+
+The `RST` flag indicates that the remote host rejected or reset the connection attempt, behavior commonly associated with closed ports during reconnaissance activities.
+
+The `ACK` flag confirms packet acknowledgment within the TCP communication process.
+
+Analyzing TCP flags provides valuable insight into how systems respond to connection attempts and is an important skill in network forensics, traffic analysis, and SOC operations.
+
+This type of packet behavior can help analysts identify reconnaissance activity, abnormal scanning patterns, and unauthorized connection attempts inside monitored environments.
 
 
 
