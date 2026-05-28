@@ -36,7 +36,7 @@ The Host-Only configuration allowed direct communication between virtual machine
 
 # 2. Kali Linux Network Configuration
 
-![Kali IP](Captura2.PNG)
+![Kali IP](Screenshots/Capture2.PNG)
 
 The Kali Linux virtual machine was configured within the same Host-Only virtual network as the Windows target machine.
 
