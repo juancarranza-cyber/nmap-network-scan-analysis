@@ -118,9 +118,26 @@ Analyzing TCP flags provides valuable insight into how systems respond to connec
 This type of packet behavior can help analysts identify reconnaissance activity, abnormal scanning patterns, and unauthorized connection attempts inside monitored environments.
 
 
+# Conclusion
 
+This project demonstrated the implementation of a basic virtual cybersecurity lab focused on network reconnaissance and packet analysis using Kali Linux, Windows, Nmap, and Wireshark.
 
+Throughout the lab, multiple networking and cybersecurity concepts were explored, including IP configuration, ICMP communication, TCP traffic analysis, port scanning, and packet inspection.
 
+The project also demonstrated how reconnaissance activity can be identified from a defensive perspective through packet analysis and monitoring of TCP behavior.
 
+By analyzing network traffic generated during Nmap scans, it was possible to observe TCP communication patterns, identify connection attempts, and inspect TCP flags such as `RST` and `ACK`.
 
+This lab strengthened foundational skills related to:
+
+* Network analysis
+* Traffic monitoring
+* TCP/IP fundamentals
+* Packet inspection
+* Reconnaissance detection
+* Wireshark analysis
+* Nmap enumeration
+* SOC-oriented investigation techniques
+
+The experience provided practical exposure to real-world concepts commonly used in Security Operations Center (SOC) environments and defensive cybersecurity operations.
 
