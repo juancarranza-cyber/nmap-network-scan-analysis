@@ -71,21 +71,19 @@ This analysis demonstrates how network communication can be monitored in real ti
 Packet analysis is a fundamental skill in defensive cybersecurity operations because it provides visibility into communication patterns and network-level activity.
 
 
-## 5. Initial Nmap Scan and Firewall Filtering
+# 5. Successful Nmap Port Scan
 
 ![Filtered Ports](Screenshots/Capture5.PNG)
 
-An initial network scan was performed against the Windows target machine using Nmap.
+A network scan was performed against the Windows target machine using Nmap.
 
-During the scan, all TCP ports appeared in a filtered state, indicating that the target system was blocking or filtering incoming connection attempts.
+The scan successfully identified accessible TCP ports and active network services running on the target system.
 
-This behavior is commonly associated with defensive security mechanisms such as Windows Defender Firewall, which restrict unauthorized access and reduce the visibility of exposed services.
+Nmap is a widely used reconnaissance and enumeration tool in cybersecurity that allows analysts and penetration testers to identify exposed services, discover accessible systems, and analyze potential attack surfaces.
 
-From a defensive cybersecurity perspective, filtered ports can make reconnaissance activities more difficult for attackers by preventing accurate service enumeration.
+During the scan, multiple TCP connection attempts were generated toward the target machine, allowing further traffic analysis using Wireshark.
 
-This step demonstrated how firewall protections can significantly affect network reconnaissance results and how security controls influence the visibility of systems during scanning activities.
-
-
+From a defensive cybersecurity perspective, network scans are considered reconnaissance activity and may represent an early stage of an attack lifecycle.
 
 
 
