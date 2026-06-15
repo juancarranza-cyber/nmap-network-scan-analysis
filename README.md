@@ -1,6 +1,6 @@
 # Nmap Network Scan Analysis
 
-Introduction
+## Introduction
 
 This project demonstrates a basic virtual SOC lab focused on network reconnaissance and traffic analysis using Kali Linux, Windows, Nmap, and Wireshark.
 
@@ -8,7 +8,7 @@ The objective of the lab was to simulate reconnaissance activity, capture genera
 
 The environment was built using VirtualBox with a Host-Only virtual network configuration to allow direct communication between virtual machines in a controlled environment.
 
-Lab Environment
+## Lab Environment
 
 * Kali Linux
 * Windows
